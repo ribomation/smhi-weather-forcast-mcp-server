@@ -2,6 +2,15 @@
 
 A Model Context Protocol (MCP) server that provides access to SMHI (Swedish Meteorological and Hydrological Institute) weather data, including forecasts and historical observations.
 
+## Disclaimer 😳
+This project is the result of an experiment of using *Claude Code AI* plus
+*Wispr Flow*, where I mostly talk via Wispr to Claude, which then implements
+an MCP server connecting to the Swedish weather data service (SMHI). You can
+find my article (in Swedish) at this url 
+https://www.ribomation.se/blog/2026/sa-har-kopplar-du-smhi-till-claude-ai/
+
+The main objective is the journey, not the end result. That means, read the article, use Claude and follow along with the prompts and recreate your own weather service MCP.
+
 ## Features
 
 - 🌤️ **Weather Forecasts** - Get 10-day weather forecasts for any location in Sweden
@@ -20,8 +29,8 @@ A Model Context Protocol (MCP) server that provides access to SMHI (Swedish Mete
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/ribomation/smhi-weather-forcast-mcp-server.git
-cd smhi-weather-forcast-mcp-server
+git clone https://github.com/ribomation/smhi-weather-forecast-mcp-server.git
+cd smhi-weather-forecast-mcp-server
 ```
 
 2. Install dependencies:
@@ -49,7 +58,7 @@ Add this to your Claude Desktop configuration file:
     "smhi-weather": {
       "command": "node",
       "args": [
-        "/absolute/path/to/smhi-weather-forcast-mcp-server/dist/smhi-weather-forcast-mcp-server.js"
+        "/path/to/smhi-weather-forcast-mcp-server.js"
       ]
     }
   }
