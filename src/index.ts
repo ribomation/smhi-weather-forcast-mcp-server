@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /**
  * SMHI Weather Forecast MCP Server - Entry Point
  */
