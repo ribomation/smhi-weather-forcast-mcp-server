@@ -217,16 +217,6 @@ Claude will:
 
 MIT
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Support
-
-For issues and questions:
-- GitHub Issues: https://github.com/ribomation/smhi-weather-forcast-mcp-server/issues
-- SMHI API Documentation: https://opendata.smhi.se/apidocs/
-
 ---
 
 Built with [Model Context Protocol](https://modelcontextprotocol.io/) by Anthropic.
