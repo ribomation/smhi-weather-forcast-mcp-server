@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "MCP server for SMHI weather forecasts and observations",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/smhi-weather-forcast-mcp-server.js",
   "bin": {
-    "smhi-weather-server": "dist/index.js"
+    "smhi-weather-server": "dist/smhi-weather-forcast-mcp-server.js"
   },
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --platform=node --format=esm --outfile=dist/index.js --banner:js=\"#!/usr/bin/env node\"",
+    "build": "esbuild src/index.ts --bundle --platform=node --format=esm --outfile=dist/smhi-weather-forcast-mcp-server.js --banner:js=\"#!/usr/bin/env node\"",
     "dev": "tsx watch src/index.ts",
-    "start": "node dist/index.js",
+    "start": "node dist/smhi-weather-forcast-mcp-server.js",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {

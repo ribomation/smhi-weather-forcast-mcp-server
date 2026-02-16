@@ -49,7 +49,7 @@ Add this to your Claude Desktop configuration file:
     "smhi-weather": {
       "command": "node",
       "args": [
-        "/absolute/path/to/smhi-weather-forcast-mcp-server/dist/index.js"
+        "/absolute/path/to/smhi-weather-forcast-mcp-server/dist/smhi-weather-forcast-mcp-server.js"
       ]
     }
   }
